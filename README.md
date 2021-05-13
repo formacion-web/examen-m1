@@ -21,7 +21,7 @@ La prueba consiste en clonar la siguiente landing-page:
 ![examen M1](https://i.imgur.com/fZKBRwp.jpg)
 
 GIF:
-
+![gif](examen-m1.gif)
 
 Para ello ten en cuenta las siguientes instrucciones:
 
