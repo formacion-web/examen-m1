@@ -38,6 +38,9 @@ __Detalles__
 - El texto de los encabezados tiene un sombreado de: `2px 2px rgba(0, 0, 0, 0.3)`
 - La fuente general del documento es Raleway, sans-serif.
 - La fuente de los títulos es "Amatic SC", sans-serif.
+- Colores:
+  - enlaces: #fff
+  - botón: #e07e7b, #ce5856
 
 __No dudes en preguntar todo lo que necesites para tener claro el ejercicio que debes realizar__
 
