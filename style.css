@@ -78,6 +78,6 @@ header main input[type="button"]:hover{
 header nav h2:hover{
     opacity: 0.5;
 }
-header nav div a:hover{
+header nav section a:hover{
     opacity: 0.5;
 }
