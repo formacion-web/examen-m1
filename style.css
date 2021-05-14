@@ -1,3 +1,85 @@
 /*#fff*/
 /*#e07e7b*/
 /*#ce5856*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1505535162959-9bbcb4ab22d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+
+}
+nav h2 {
+    margin-left: 100px;
+    margin-top: 40px;
+    color: #fff;
+    font-family:"Amatic SC", sans-serif;
+    
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+ul {
+    display: inline;
+    margin-top: 40px;
+    margin-right: 80px;
+    word-spacing: 20px;
+    color: #fff;
+    font-family:"Amatic SC", sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    
+}
+li {
+    display: inline;
+    list-style: none;
+   
+    
+}
+nav h2:hover {
+    opacity: 50%;
+}
+nav li:hover {
+    opacity: 50%;
+}
+.titulo {
+    display: block;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 350px;
+}
+.titulo h1{
+    color: #fff;
+    font-family:"Amatic SC", sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.titulo p {
+    color: #fff;
+    font-family:"Amatic SC", sans-serif;
+    text-transform: lowercase;
+    font-size: 35px;
+    margin-left: -120px;
+
+}
+button {
+    background-color:#e07e7b;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: capitalize;
+    margin-left: 60px;
+    color: #fff;
+    font-family:"Amatic SC", sans-serif;
+    font-size: 20px;
+}
+button:hover {
+    background-color:  #ce5856;
+    transition: 400ms;
+}
