@@ -1,3 +1,96 @@
 /*#fff*/
 /*#e07e7b*/
 /*#ce5856*/
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-image: url("https://images.unsplash.com/photo-1505535162959-9bbcb4ab22d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce");
+    background-size: cover; 
+
+    padding: 25px 75px;
+    color:#fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;    
+
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav li{
+    list-style-type: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    color:white;
+    font-size: smaller;
+    
+}
+
+nav li:hover{
+    transition: opacity 400ms ease;
+    opacity: 0.5;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+h1, h4{
+    font-family:"Amatic SC", sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    font-size: medium;
+    margin: 15px;
+}
+
+h1, h3, h4{
+    text-shadow:2px 2px rgba(0, 0, 0, 0.3);
+    color:white;
+}
+
+main>button{
+    
+    border:none;
+    border-radius: 5px;
+    font-weight: 900;
+    background-color:  #e07e7b;
+    color:white;
+    width: 150px;
+    height: 40px;
+}
+
+button:hover {
+    transition: background-color 400ms ease;
+    background-color:  #ce5856;
+    
+  }
+
+  /* @media only screen  */
+  @media (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  {
+    body{   
+    padding: 25px 25px;
+  }
+}  
