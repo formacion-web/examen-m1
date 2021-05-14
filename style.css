@@ -1,3 +1,93 @@
 /*#fff*/
 /*#e07e7b*/
 /*#ce5856*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+h1,
+h2 {
+  font-family: "Amatic SC", sans-serif;
+  opacity: 0.7;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+h2:hover {
+  opacity: 1;
+}
+
+nav ul {
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+  opacity: 0.7;
+}
+
+nav ul li:hover {
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background-image: url("https://images.unsplash.com/photo-1505535162959-9bbcb4ab22d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+main p {
+  margin-top: 20px;
+  font-size: 1.3em;
+  opacity: 0.7;
+}
+
+main button {
+  margin-top: 25px;
+  width: 180px;
+  height: 50px;
+  border: 0;
+  border-radius: px;
+  text-transform: uppercase;
+  color: #fff;
+
+  background: #e07e7b;
+}
+
+button:hover {
+  background: #ce5856;
+  transition: 400ms;
+}
