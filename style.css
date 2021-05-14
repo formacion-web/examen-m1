@@ -80,7 +80,6 @@ header>nav>ul>li>a{
 
 header>nav>ul>li>a:hover,
 header>nav>a:hover {
-    transition: all .4s ease;
     opacity: 1;
 }
 
