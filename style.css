@@ -2,10 +2,14 @@
 /*#e07e7b*/
 /*#ce5856*/
 
+/* Inicializar */
 *{
     padding:0;
     margin:0;
 }
+
+/* fijamos height y añadimos imagen en bakcground
+fijamos la fuente 'Raleway', sans-serif; para los textos de la pagina */
 body{
     height: 100vh;
     font-family: 'Raleway', sans-serif;
@@ -38,7 +42,7 @@ nav li{
     font-size: smaller;
     
 }
-
+/* Los elementos de la barra de navegación tienen un efecto hover que varía la opacidad de los elementos. */
 nav li:hover{
     transition: opacity 400ms ease;
     opacity: 0.5;
@@ -53,6 +57,7 @@ main{
     text-align: center;
 }
 
+/* La fuente de los títulos es "Amatic SC", sans-serif. */
 h1, h4{
     font-family:"Amatic SC", sans-serif;
 }
@@ -64,6 +69,7 @@ h3{
     margin: 15px;
 }
 
+/* El texto de los encabezados tiene un sombreado de: 2px 2px rgba(0, 0, 0, 0.3) */
 h1, h3, h4{
     text-shadow:2px 2px rgba(0, 0, 0, 0.3);
     color:white;
@@ -76,11 +82,12 @@ main>button{
     font-weight: 900;
     background-color:  #e07e7b;
     color:white;
-    width: 150px;
+    width: 140px;
     height: 40px;
 }
 
-button:hover {
+/* El botón tiene un efecto hover que varía el color del elemento con una transición de 400ms. */
+main>button:hover {
     transition: background-color 400ms ease;
     background-color:  #ce5856;
     
