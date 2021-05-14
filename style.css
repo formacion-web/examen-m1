@@ -1,3 +1,83 @@
 /*#fff*/
 /*#e07e7b*/
 /*#ce5856*/
+
+body { 
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1505535162959-9bbcb4ab22d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    
+}
+header section a{
+    text-decoration: none;
+    color: white;
+    padding-left: 18px;
+    font-size: 0.9em;
+    font-family: Raleway, sans-serif;
+}
+header a{
+    font-family: amatic SC, sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+header main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+body{
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+h1{
+    font-family: amatic SC, sans-serif;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+}
+header main h1{
+    font-size: 3.5em;
+    margin-bottom: -5px;
+    font-weight: 100; 
+}
+header main p{
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+header main input[type="button"]{
+    font-size: 1.2em;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: #e07e7b;
+    color: white;
+    font-family: Raleway, sans-serif; 
+    transition: background-color 400ms; 
+}
+header main input[type="button"]:hover{
+    background-color:#ce5856      
+}
+
+header nav h2:hover{
+    opacity: 0.5;
+}
+header nav div a:hover{
+    opacity: 0.5;
+}
