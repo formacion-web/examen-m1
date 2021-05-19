@@ -1,3 +1,67 @@
 /*#fff*/
 /*#e07e7b*/
 /*#ce5856*/
+.container{
+    position: relative;
+}
+
+nav{position:absolute;
+    right: 300px;
+    left: 100px;
+    padding-top: 50px;
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.3);
+
+}
+h1{
+    position:absolute;
+    top: 370px;
+    margin-right: 0px;
+    padding-left: 650px;
+    font-family:Amatic SC, sans-serif;
+    color: #fff;
+    font-size: 60px
+  
+}
+
+p{
+    position:absolute;
+        left: 560px;
+        bottom: 370px;
+        font-family: Raleway, sans-serif;
+        color: #fff;
+        font-size: 18px;
+    }
+
+
+button{
+    position: absolute;
+    bottom: 300px;
+    left: 670px;
+    background-color: #e07e7b;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 16px;
+    transition-property: background-color;
+    transition-duration: 400ms;
+    
+
+}
+button:hover{
+    background-color: #ce5856;
+    
+ }
+.textNav{
+    position: absolute;
+    padding-right: 0px;
+    right: 1000px;
+    left: 1200px;
+    width: 350px;
+    height: 22px;
+    }
+  
